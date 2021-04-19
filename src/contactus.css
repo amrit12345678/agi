@@ -1,0 +1,136 @@
+
+/* .fields{
+    right: 6.5%;
+}
+
+.fields1{
+    left: 6.5%;
+} */
+
+
+/* .field{ */
+    /* width: 230px; */
+    /* height: 45px; */
+    /* margin-right: 50px; */
+    /* margin-left: 20px; */
+/* } */
+.field1{
+    width: 500px;
+    margin-top: 0px;
+    height: 45px;
+}
+
+
+.field2{
+    width: 500px;
+    margin-top: 25px;
+    height: 45px;
+}
+.field3{
+    width: 500px;
+    margin-top: 25px;
+}
+
+.drop{
+    margin-top: 25px;
+    width: 500px;
+    background: white;
+    height: 45px;
+}
+
+.button{
+    margin-top: 25px;
+}
+
+.button {
+    color: white;
+    background-color: rgb(240, 44, 44);
+}
+  
+.button a:hover{
+    color: transparent;
+  }
+  
+.button:hover{
+    border-style: solid;
+    background-color: black;
+}
+
+.info{
+    color: black;
+}
+
+.info:hover{
+    color: black;
+    
+}
+
+.gradiant{
+    overflow: hidden;
+  }
+
+  @media screen and (max-width: 768px) {
+    .gradiant{
+        text-align: center;
+    }
+    .mainhead{
+        text-align: center;
+    }
+    .cardrow{
+        text-align: center;
+        width: 100%;
+        padding-left: unset;
+    }
+    .crd1{
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .contain{
+        flex: 50%;
+        max-width: 50%;
+    }
+    .crd1{
+        flex: 50%;
+        max-width: 50%;
+        margin-top: 8px;
+        padding-left: 1%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .contain{
+        flex: 100%;
+        max-width: 100%;
+    }
+    .crd1{
+        flex: 100%;
+        margin-top: 8px;
+        max-width: 100%;
+        margin-left: 9px;
+    }
+}
+
+.crd1{
+    margin-left: 8px;
+    display: flex;
+    flex: 25%;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.cardrow{
+    display: flex;
+    flex: 25%;
+    width: 100%;
+    /* text-align: center; */
+}
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+
+

@@ -1,0 +1,185 @@
+.gradiant{
+    overflow:hidden;
+}
+
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    position: relative;
+    width: 800px;
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+/* .crd1{
+    margin: 0 auto;
+    margin-left: 170px;
+    float: none;
+    margin-bottom: 10px;
+    position: relative;
+    width: 800px;
+}
+
+.crd2{
+    margin-right:180px;
+    width: 10rem;   
+    margin-bottom: 10px; 
+} */
+
+/* .button {
+    color: white;
+    background-color: rgb(240, 44, 44);1
+}
+  
+.button a:hover{
+    color: transparent;
+  }
+  
+.button:hover{
+    border-style: solid;
+    background-color: black;
+} */
+
+.button {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #1613f1;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {
+    background-color: #e90808;
+    color: white;
+  }
+  
+  .button:active {
+    background-color: #f01111;
+    box-shadow: 0 4px rgb(228, 225, 225);
+    transform: translateY(4px);
+  }
+
+.info{
+    color: black;
+}
+
+.info:hover{
+    color: black;
+    
+}
+
+.mainhead1{
+    font-size: 43px;
+    font-family: Cream-Cake;
+    color: red;
+}
+
+.mainicon{
+    margin-left: -15px;
+    margin-top: 5px;
+}
+
+.agilogo{
+    height: 230px;
+    width: 230px;
+    /* margin-left: 40px; */
+}
+
+.agi{
+    text-align: center;
+}
+
+.icon{
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.banner{
+    text-align: center;
+}
+@media screen and (max-width: 800px) {
+    .contain{
+        flex: 50%;
+        max-width: 50%;
+    }
+
+    .mainhead1{
+        font-size: 36px;
+        font-family: Cream-Cake;
+        color: red;
+    }
+
+    .card {
+        width: 100;
+        margin-left: 10px;
+    }
+
+    /* .crd1{
+        height: 600px;
+        margin-left: 30px;
+    } */
+
+    .crd2{
+        width: 100%;
+    } 
+
+    .agibanner{
+        flex: 50%;
+        max-width: 50%;
+    }
+
+    .card{
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .contain{
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .mainhead1{
+        font-size: 36px;
+        font-family: Cream-Cake;
+        color: red;
+    }
+    
+    /* .card {
+        width: 10rem;
+    } */
+
+    /* .crd2{
+        width: 500px;
+    } */
+
+    /* .crd1{
+        height: 600px;
+        margin-left: 30px;
+    } */
+
+    .agibanner{
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .card{
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+
+
